@@ -1,0 +1,71 @@
+body {
+    background-color: beige;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background: rgb(235, 51, 51);
+    color: rgb(5, 54, 5);
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: darkgreen;
+    text-align: center;
+}
+
+#first {
+    width: 60%;
+    padding-right: 5%;
+    overflow: hidden;
+    float: left;
+}
+
+#logo {
+    width: 30%;
+    margin: 10px auto;
+    padding-top: 0;
+    float: right;
+    
+}
+
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#disclaimer {
+    float: right;
+    width: 20%;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.group {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+
+}
+
+.loaves {
+    height: 18rem;
+    object-fit: cover;
+}
